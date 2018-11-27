@@ -5,8 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fields {
-	public class PerformanceTimer : IDisposable {
+namespace Fields 
+{
+	public class PerformanceTimer : IDisposable 
+	{
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 	
 		public Stopwatch _stopwatch;
