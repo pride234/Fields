@@ -1,0 +1,9 @@
+language: csharp
+script:
+  - xbuild /p:Configuration=Debug Fields.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Fields.sln
+after_script:
+  - nunit-console FieldsTests/bin/Debug/FieldsTests.dll
