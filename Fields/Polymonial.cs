@@ -199,7 +199,7 @@ namespace Fields
 		public Polynomial Square() 
 		{
 			
-			var array = new int[2*this.number.Length - 1];
+			var array = new int[2 * this.number.Length - 1];
 			
 			for (var i = 0; i < this.number.Length; i++)
 			{
