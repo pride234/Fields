@@ -26,7 +26,7 @@ namespace Fields
 		public Polynomial(string bit)
 		{
 		
-			var dig = bit.Length;	// Делит строку на части по 32 бита
+			var dig = bit.Length;
 			number = new int[dig];
 
 			for(var i = 0; i < dig; i++)
@@ -80,7 +80,11 @@ namespace Fields
 			while (num.number[i] == 0)
 			{
 				i--;
-				if (i == -1) return result;
+
+				if (i == -1) 
+				{
+					return result;
+				}
 			}
 
 			var humanresult = new int[i+1];
@@ -178,7 +182,10 @@ namespace Fields
 
 			for (var i = 0; i < num.number.Length; i++) 
 			{				
-				if ((num.number[i] & 1) == 0) continue;
+				if ((num.number[i] & 1) == 0)
+				{ 
+					continue;
+				}
 				temp = ShiftDigitsToRight(this.number, i);
 				result = result.Add(temp);
 			}
@@ -219,7 +226,11 @@ namespace Fields
 
 			for (var i = 0; i<num.number.Length; i++) 
 			{
-				if (num.number[i] == 1) C = C.MultiplyBy(A).mod();
+				if (num.number[i] == 1)
+				{ 
+					C = C.MultiplyBy(A).mod();
+				}
+
 				A = A.MultiplyBy(A).mod();
 			}
 			
