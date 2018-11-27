@@ -1,0 +1,12 @@
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\FieldsTests.dll
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\FieldsTests.pdb
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\Fields.exe
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\nunit.framework.dll
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\Fields.pdb
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\Fields.exe.config
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\bin\Debug\nunit.framework.xml
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\obj\Debug\FieldsTests.csprojAssemblyReference.cache
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\obj\Debug\FieldsTests.csproj.CoreCompileInputs.cache
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\obj\Debug\FieldsTests.csproj.CopyComplete
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\obj\Debug\FieldsTests.dll
+C:\Users\PRIDE\source\repos\Fields\FieldsTests\obj\Debug\FieldsTests.pdb
